@@ -1,0 +1,39 @@
+# Java class files
+*.class
+
+# Gradle build directory
+.gradle/
+
+# Maven build directory
+target/
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse files
+.classpath
+.project
+.settings/
+
+# Mac files
+.DS_Store
+._*
+
+# Log files
+*.log
+
+# Test output
+test-output/
+
+# Appium logs
+appium*.log
+
+# Appium screenshots
+errorShots/
+
+# Emulator snapshots
+*.avd/hardware-qemu.ini.lock
+*.avd/*.ini
