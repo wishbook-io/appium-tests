@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WishbookAppiumAutomationSuite">
+
+   <test thread-count="5" name="Android_7_1_1">
+        <parameter name="config"
+                   value="
+                   {&quot;appiumServerUrl&quot;:&quot;http://127.0.0.1:4723/wd/hub&quot;,
+                    &quot;developmentFramework&quot;:&quot;NativeAndroid&quot;,
+                    &quot;serverType&quot;:&quot;Staging&quot;,
+                    &quot;deviceName&quot;:&quot;Android Emulator&quot;,
+                    &quot;browserName&quot;:&quot;Android&quot;,
+                    &quot;platformVersion&quot;:&quot;5.1.1&quot;,
+                    &quot;platformName&quot;:&quot;Android&quot;,
+                    &quot;appPackage&quot;:&quot;com.wishbook.catalog&quot;,
+                    &quot;automationName&quot;:&quot;UIAutomator2&quot;,
+                    &quot;appActivity&quot;:&quot;com.wishbook.catalog.SplashScreen&quot;,
+                    &quot;autoGrantPermissions&quot;:&quot;true&quot;,
+                    &quot;printPageSourceOnFindFailure&quot;:&quot;true&quot;,
+                    &quot;gpsEnabled&quot;:&quot;true&quot;,
+                    &quot;unicodeKeyboard&quot;:&quot;true&quot;,
+                    &quot;resetKeyboard&quot;:&quot;true&quot;}"></parameter>
+        <classes>
+            <class name="com.wishbook.catalog.Execution.Core.BaseTest"/>
+        </classes>
+    </test>
+
+
+    <!--<test thread-count="5" name="Android_7_1_1">-->
+        <!--<parameter name="config"-->
+                   <!--value="-->
+                   <!--{&quot;appiumServerUrl&quot;:&quot;http://127.0.0.1:4723/wd/hub&quot;,-->
+                    <!--&quot;deviceName&quot;:&quot;Android Emulator&quot;,-->
+                    <!--&quot;browserName&quot;:&quot;Chrome&quot;,-->
+                    <!--&quot;platformVersion&quot;:&quot;5.1.1&quot;,-->
+                    <!--&quot;platformName&quot;:&quot;Android&quot;,-->
+                    <!--&quot;automationName&quot;:&quot;UIAutomator2&quot;,-->
+                    <!--&quot;printPageSourceOnFindFailure&quot;:&quot;true&quot;,-->
+       <!--}"></parameter>-->
+        <!--<classes>-->
+            <!--<class name="com.wishbook.catalog.Execution.Core.BaseTest"/>-->
+        <!--</classes>-->
+    <!--</test>-->
+
+
+
+</suite>
